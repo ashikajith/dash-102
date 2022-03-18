@@ -180,4 +180,4 @@ app.layout = html.Div([ # < < this creates division in dashboard to insert objs
 #--- CONFIG 2 ---#
 #run app
 if __name__ == '__main__': #checks if youre running the script
-    app.run_server() #grabs application obj and runs server
+    app.run_server(debug=True) #grabs application obj and runs server
