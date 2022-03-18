@@ -8,8 +8,10 @@ import numpy as np
 import pandas as pd
 from dash.dependencies import Input, Output #for callbacks
 
+
 #create app
 app = Dash(__name__) #this is creating flask application
+server = app.server
 
 #define colors
 colors = {'background':'#96b6ab', 'text':'#936c7c'}
