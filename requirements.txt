@@ -1,8 +1,8 @@
 aws-google-auth==0.0.36
-awscli==1.18.182
+awscli==1.16.310
 beautifulsoup4==4.9.3
 boto3==1.16.22
-botocore==1.19.22
+botocore==1.13.46
 Brotli==1.0.9
 certifi==2020.11.8
 cffi==1.14.3
@@ -20,8 +20,10 @@ entrypoints==0.3
 filelock==3.0.12
 Flask==1.1.1
 Flask-Compress==1.11
+gunicorn==20.1.0
 hidapi==0.7.99.post21
 idna==2.10
+importlib-metadata==4.8.3
 itsdangerous==1.1.0
 jeepney==0.6.0
 Jinja2==2.11.1
@@ -43,7 +45,7 @@ pytz==2020.4
 PyYAML==5.3.1
 requests==2.25.0
 rsa==4.5
-s3transfer==0.3.3
+s3transfer==0.2.1
 SecretStorage==3.2.0
 six==1.15.0
 soupsieve==2.0.1
