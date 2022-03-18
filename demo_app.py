@@ -107,19 +107,6 @@ app.layout = html.Div([ # < < this creates division in dashboard to insert objs
                                     ],
                                     value='Brsitol', #default value
                         ),
-                        #slider
-                        html.Label('Slider',
-                                    style={
-                                        'color':colors['text']
-                                    }
-                        ),
-                        html.Div( [dcc.Slider( min=-10,max=10,step=0.5,value=0,
-                                    marks={i: 1 for i in range(-10,10)} )],
-                           style={
-                                    'border':'2px green solid'
-                                }
-                            #can keep wrapping dcc components inside html ones to style
-                        ),
                         #markdown block
                         dcc.Markdown(markdown_text,
                         ),
